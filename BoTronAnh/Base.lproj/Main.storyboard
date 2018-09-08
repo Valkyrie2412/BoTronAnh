@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lMH-h0-59F">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Master View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MasterViewController" customModule="BoTronAnh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRp-xt-8FR" customClass="DesignableUIView" customModule="BoTronAnh" customModuleProvider="target">
+                                <rect key="frame" x="140" y="286.5" width="94" height="94"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nero" translatesAutoresizingMaskIntoConstraints="NO" id="mcd-c1-ERb">
+                                        <rect key="frame" x="0.0" y="0.0" width="94" height="94"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mcd-c1-ERb" secondAttribute="height" id="wG2-Ay-daW"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.74260189170000002" blue="0.63848933510000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mcd-c1-ERb" firstAttribute="centerY" secondItem="RRp-xt-8FR" secondAttribute="centerY" id="AIZ-1S-JIi"/>
+                                    <constraint firstAttribute="width" secondItem="RRp-xt-8FR" secondAttribute="height" id="TbN-h0-LRH"/>
+                                    <constraint firstItem="mcd-c1-ERb" firstAttribute="width" secondItem="RRp-xt-8FR" secondAttribute="width" id="WV7-V2-NUd"/>
+                                    <constraint firstItem="mcd-c1-ERb" firstAttribute="centerX" secondItem="RRp-xt-8FR" secondAttribute="centerX" id="plK-hW-hY9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.74260189170000002" blue="0.63848933510000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="44"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RRp-xt-8FR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1/4" id="2qL-5l-I06"/>
+                            <constraint firstItem="RRp-xt-8FR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JUJ-ba-LcM"/>
+                            <constraint firstItem="RRp-xt-8FR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Y4Q-QO-dlq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7t6-kv-Ufw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359" y="12"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lEf-w3-yES">
+            <objects>
+                <viewController id="Ywz-UV-AUq" customClass="ViewController" customModule="BoTronAnh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uAL-Dh-9P2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nero" translatesAutoresizingMaskIntoConstraints="NO" id="nMb-PL-aQB">
+                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nMb-PL-aQB" secondAttribute="height" id="nXX-0z-tYv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.74260189170000002" blue="0.63848933510000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nMb-PL-aQB" firstAttribute="width" secondItem="uAL-Dh-9P2" secondAttribute="width" id="4Xw-Ih-20v"/>
+                            <constraint firstItem="nMb-PL-aQB" firstAttribute="centerX" secondItem="uAL-Dh-9P2" secondAttribute="centerX" id="DRc-e3-hnV"/>
+                            <constraint firstItem="nMb-PL-aQB" firstAttribute="centerY" secondItem="uAL-Dh-9P2" secondAttribute="centerY" id="yY5-99-QX7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kOR-e5-PUJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="photoView" destination="nMb-PL-aQB" id="vj6-Wu-h6d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NL1-S0-v7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="11"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="VVq-xi-JDE">
+            <objects>
+                <viewController id="lMH-h0-59F" customClass="DetailViewController" customModule="BoTronAnh" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o6q-d9-fyV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nero" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-7c-Zcz" customClass="DesignableUI" customModule="BoTronAnh" customModuleProvider="target">
+                                <rect key="frame" x="125" y="271" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0J0-7c-Zcz" secondAttribute="height" id="lpU-Cu-4Jp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0J0-7c-Zcz" firstAttribute="centerX" secondItem="o6q-d9-fyV" secondAttribute="centerX" id="2a5-AN-tXI"/>
+                            <constraint firstItem="0J0-7c-Zcz" firstAttribute="centerY" secondItem="o6q-d9-fyV" secondAttribute="centerY" id="6Jh-oS-95m"/>
+                            <constraint firstItem="0J0-7c-Zcz" firstAttribute="width" secondItem="o6q-d9-fyV" secondAttribute="width" multiplier="1/3" id="gVp-pQ-gka"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rHc-js-sH2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHC-AH-nq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2313" y="10"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nero" width="431" height="463"/>
+    </resources>
+</document>
